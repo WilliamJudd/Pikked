@@ -14,6 +14,13 @@
 		3DCA2BE61C52E92400D8384B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA2BE41C52E92400D8384B /* LaunchScreen.storyboard */; };
 		3DCA2BF11C52E92400D8384B /* PikkedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA2BF01C52E92400D8384B /* PikkedTests.swift */; };
 		3DCA2BFC1C52E92400D8384B /* PikkedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA2BFB1C52E92400D8384B /* PikkedUITests.swift */; };
+		3DCA2C0A1C52F3F200D8384B /* AnimationIntroViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA2C091C52F3F200D8384B /* AnimationIntroViewViewController.swift */; };
+		3DCA2C0C1C52F83800D8384B /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA2C0B1C52F83800D8384B /* UIImage+Gif.swift */; };
+		3DCA2C0E1C52F85700D8384B /* nikeGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA2C0D1C52F85700D8384B /* nikeGif.gif */; };
+		3DCA2C101C52FAAE00D8384B /* NikeGif2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA2C0F1C52FAAE00D8384B /* NikeGif2.gif */; };
+		3DCA2C121C52FBA100D8384B /* NikeGif3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA2C111C52FBA100D8384B /* NikeGif3.gif */; };
+		3DCA2C141C5302C700D8384B /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA2C131C5302C700D8384B /* ZFRippleButton.swift */; };
+		B9B995C028DCC22EACCA609B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CEFD142CA344E5756A40E3 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,15 @@
 		3DCA2BF71C52E92400D8384B /* PikkedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikkedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCA2BFB1C52E92400D8384B /* PikkedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikkedUITests.swift; sourceTree = "<group>"; };
 		3DCA2BFD1C52E92400D8384B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCA2C091C52F3F200D8384B /* AnimationIntroViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationIntroViewViewController.swift; sourceTree = "<group>"; };
+		3DCA2C0B1C52F83800D8384B /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "Pods/SwiftGifOrigin/SwiftGifCommon/UIImage+Gif.swift"; sourceTree = "<group>"; };
+		3DCA2C0D1C52F85700D8384B /* nikeGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nikeGif.gif; sourceTree = "<group>"; };
+		3DCA2C0F1C52FAAE00D8384B /* NikeGif2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NikeGif2.gif; sourceTree = "<group>"; };
+		3DCA2C111C52FBA100D8384B /* NikeGif3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NikeGif3.gif; sourceTree = "<group>"; };
+		3DCA2C131C5302C700D8384B /* ZFRippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZFRippleButton.swift; path = Pods/ZFRippleButton/Classes/ZFRippleButton.swift; sourceTree = "<group>"; };
+		4DD7FC9932C577BF099511B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		859A75F8F2DBB05C1475C93E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A4CEFD142CA344E5756A40E3 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B995C028DCC22EACCA609B /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,13 @@
 				3DCA2BEF1C52E92400D8384B /* PikkedTests */,
 				3DCA2BFA1C52E92400D8384B /* PikkedUITests */,
 				3DCA2BD91C52E92400D8384B /* Products */,
+				4A64A17EF9FCBE1D62E4E651 /* Pods */,
+				3DCA2C0B1C52F83800D8384B /* UIImage+Gif.swift */,
+				3DCA2C131C5302C700D8384B /* ZFRippleButton.swift */,
+				3DCA2C0D1C52F85700D8384B /* nikeGif.gif */,
+				3DCA2C0F1C52FAAE00D8384B /* NikeGif2.gif */,
+				3DCA2C111C52FBA100D8384B /* NikeGif3.gif */,
+				3E1AD5FE85830DCAB8DAB8FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +123,7 @@
 			children = (
 				3DCA2BDB1C52E92400D8384B /* AppDelegate.swift */,
 				3DCA2BDD1C52E92400D8384B /* ViewController.swift */,
+				3DCA2C091C52F3F200D8384B /* AnimationIntroViewViewController.swift */,
 				3DCA2BDF1C52E92400D8384B /* Main.storyboard */,
 				3DCA2BE21C52E92400D8384B /* Assets.xcassets */,
 				3DCA2BE41C52E92400D8384B /* LaunchScreen.storyboard */,
@@ -125,6 +150,23 @@
 			path = PikkedUITests;
 			sourceTree = "<group>";
 		};
+		3E1AD5FE85830DCAB8DAB8FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4CEFD142CA344E5756A40E3 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A64A17EF9FCBE1D62E4E651 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				859A75F8F2DBB05C1475C93E /* Pods.debug.xcconfig */,
+				4DD7FC9932C577BF099511B1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DCA2C001C52E92400D8384B /* Build configuration list for PBXNativeTarget "Pikked" */;
 			buildPhases = (
+				5763194D61E95E40123D2F14 /* Check Pods Manifest.lock */,
 				3DCA2BD41C52E92400D8384B /* Sources */,
 				3DCA2BD51C52E92400D8384B /* Frameworks */,
 				3DCA2BD61C52E92400D8384B /* Resources */,
+				81D217F5C2762375E58A29D6 /* Embed Pods Frameworks */,
+				B8747856BCBF22006E6DF55B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,8 +274,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DCA2C121C52FBA100D8384B /* NikeGif3.gif in Resources */,
+				3DCA2C0E1C52F85700D8384B /* nikeGif.gif in Resources */,
 				3DCA2BE61C52E92400D8384B /* LaunchScreen.storyboard in Resources */,
 				3DCA2BE31C52E92400D8384B /* Assets.xcassets in Resources */,
+				3DCA2C101C52FAAE00D8384B /* NikeGif2.gif in Resources */,
 				3DCA2BE11C52E92400D8384B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,12 +299,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5763194D61E95E40123D2F14 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81D217F5C2762375E58A29D6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8747856BCBF22006E6DF55B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3DCA2BD41C52E92400D8384B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3DCA2BDE1C52E92400D8384B /* ViewController.swift in Sources */,
+				3DCA2C0A1C52F3F200D8384B /* AnimationIntroViewViewController.swift in Sources */,
+				3DCA2C0C1C52F83800D8384B /* UIImage+Gif.swift in Sources */,
+				3DCA2C141C5302C700D8384B /* ZFRippleButton.swift in Sources */,
 				3DCA2BDC1C52E92400D8384B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +494,7 @@
 		};
 		3DCA2C011C52E92400D8384B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 859A75F8F2DBB05C1475C93E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pikked/Info.plist;
@@ -406,6 +506,7 @@
 		};
 		3DCA2C021C52E92400D8384B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD7FC9932C577BF099511B1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pikked/Info.plist;
@@ -482,6 +583,7 @@
 				3DCA2C021C52E92400D8384B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DCA2C031C52E92400D8384B /* Build configuration list for PBXNativeTarget "PikkedTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +592,7 @@
 				3DCA2C051C52E92400D8384B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DCA2C061C52E92400D8384B /* Build configuration list for PBXNativeTarget "PikkedUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +601,7 @@
 				3DCA2C081C52E92400D8384B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
